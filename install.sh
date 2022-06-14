@@ -179,3 +179,6 @@ ${SUDO_CMD}"python$PYVER" -m hikka "$@" || {
 	printf "\033[1;31mPython scripts failed\e[0m"
 	exit 5
 }
+
+# Adding DeepSource shee issue
+echo $1
